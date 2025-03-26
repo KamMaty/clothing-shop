@@ -1,9 +1,17 @@
+@font-face {
+  font-family: "Open Sans Condensed";
+  src: url("./assets/OpenSans_Condensed-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 20px 40px;
-  font-family: "Jossefin Sans", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  // font-weight: 300;
 }
 
 code {
