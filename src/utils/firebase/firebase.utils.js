@@ -21,12 +21,12 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBoib0IkSXRzjfEutJMvFq43e4qkAxyAJw",
-  authDomain: "crwn-dlothing-db.firebaseapp.com",
-  projectId: "crwn-dlothing-db",
-  storageBucket: "crwn-dlothing-db.appspot.com",
-  messagingSenderId: "105190037897",
-  appId: "1:105190037897:web:292155eba570f04f87e958",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
